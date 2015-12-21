@@ -388,4 +388,4 @@ The stats that appear in the `PitcherStats` objects
 for x in idmap:
     for y in idmap[x]['obj']:
         if y == 'PitcherStats':
-            pitcher_stats[x] = idmap[x]
+            pitcher_stats[x] = idmap[x] #this is redundant
